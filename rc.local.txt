@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+sudo bash /etc/openvpn/iptables.sh &
+sleep 10
+sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+sudo bash /etc/openvpn/connect.sh &
+
+exit 0
