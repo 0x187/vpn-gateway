@@ -3,7 +3,6 @@ sample file and script for crate gateway vpn
 
 ---------------------------------------------------
 VPN Gateway w/ Kill Switch
-Instructions for Ubuntu 18.04 Server
 
 Set Static IP address
 /etc/netplan/50-cloud-init.yaml 
